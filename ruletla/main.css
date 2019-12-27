@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 15vh;
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.spin {
+  position: relative;
+  display: block;
+  left: 47.7%;
+  top: -24%;
+  padding: 2rem;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#ball1 {
+  position: absolute;
+  display: block;
+  left: 37.8%;
+  top: 48.8%;
+  padding: 1rem;
+}
+
+#ball2 {
+  position: absolute;
+  display: none;
+  left: 51.65%;
+  top: 26%;
+  padding: 1rem;
+}
+
+#ball3 {
+  position: absolute;
+  display: none;
+  padding: 1rem;
+  left: 49.3%;
+  top: 69.5%;
+}

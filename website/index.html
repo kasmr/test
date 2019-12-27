@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ТЗ</title>
+    <link rel="stylesheet" href="/website/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="navbar">
+          <div class="burger-menu">
+            <a href="#"><i class="fas fa-bookmark"></i></a>
+            <a href="#"><i class="fas fa-graduation-cap"></i></a>
+            <a href="#"><i class="fas fa-bolt"></i></a>
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+          <div class="logo">
+            <img src="./img/logo.png" alt="" />
+          </div>
+          <div class="nav-list">
+            <button class="nav-item">
+              <a href="#">Курс<i class="fas fa-bookmark"></i></a>
+            </button>
+            <button class="nav-item">
+              <a href="#">Профессия<i class="fas fa-graduation-cap"></i></a>
+            </button>
+            <div class="dropdown">
+              <button class="nav-item">
+                <a href="#">Интенсивы<i class="fas fa-bolt"></i></a>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">HTML и CSS, уровень 1</a>
+                <a href="#">HTML и CSS, уровень 2</a>
+                <a href="#">JavaScript, уровень 1</a>
+                <a href="#">JavaScript, уровень 2</a>
+                <a href="#">Node.js, уровень 1</a>
+                <a href="#">PHP, уровень 1</a>
+              </div>
+            </div>
+            <div class="login">
+              <button class="nav-item">
+                <a href="#"
+                  ><span>Регистрация</span><i class="fas fa-user"></i
+                ></a>
+              </button>
+              <button class="nav-item">
+                <a href="#"
+                  ><span>Войти</span><i class="fas fa-sign-in-alt"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="slider-container">
+          <div class="slide">
+            <div class="slide-image">
+              <img src="./img/slide1.jpg" alt="" />
+            </div>
+            <div class="slide-text">
+              <h1>Lorem</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati quas laboriosam perferendis dicta at impedit inventore
+                error saepe deleniti quisquam, officia fugit? Corrupti molestiae
+                asperiores ut doloremque libero pariatur eius.
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-image">
+              <img src="./img/slide2.jpg" alt="" />
+            </div>
+            <div class="slide-text">
+              <h1>Lorem</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati quas laboriosam perferendis dicta at impedit inventore
+                error saepe deleniti quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-image">
+              <img src="./img/slide3.jpg" alt="" />
+            </div>
+            <div class="slide-text">
+              <h1>Lorem</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati quas laboriosam perferendis.
+              </p>
+            </div>
+          </div>
+          <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          <a class="next" onclick="plusSlides(1)"
+            ><i class="fas fa-arrow-right"></i
+          ></a>
+          <a class="prev" onclick="plusSlides(-1)"
+            ><i class="fas fa-arrow-left"></i
+          ></a>
+        </div>
+      </section>
+      <section class="blog">
+        <aside>
+          <h2>Популярное</h2>
+          <div class="ad">
+            <img src="./img/aside.jpg" alt="" />
+            <div class="text">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>17 января 2020</p>
+            </div>
+          </div>
+          <div class="ad">
+            <img src="./img/aside.jpg" alt="" />
+            <div class="text">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>17 января 2020</p>
+            </div>
+          </div>
+          <div class="ad">
+            <img src="./img/aside.jpg" alt="" />
+            <div class="text">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>17 января 2020</p>
+            </div>
+          </div>
+          <div class="ad">
+            <img src="./img/aside.jpg" alt="" />
+            <div class="text">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>17 января 2020</p>
+            </div>
+          </div>
+          <div class="ad">
+            <img src="./img/aside.jpg" alt="" />
+            <div class="text">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>17 января 2020</p>
+            </div>
+          </div>
+          <div class="ad">
+            <img src="./img/aside.jpg" alt="" />
+            <div class="text">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>17 января 2020</p>
+            </div>
+          </div>
+        </aside>
+        <article>
+          <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+          <!-- <hr /> -->
+          <p>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              perspiciatis voluptatem animi maxime enim!</span
+            >
+            Assumenda quam nisi sunt, iusto itaque, iure alias dolor a debitis
+            commodi dolore cum deleniti id, eius reprehenderit veritatis ut
+            voluptas exercitationem! Nesciunt rerum aliquid quos assumenda
+            pariatur nobis vitae totam eum vero, harum quia amet obcaecati
+            provident eaque. Deleniti, nulla quidem aliquid inventore debitis
+            facere nam pariatur nihil odio excepturi dolores soluta, optio
+            fugiat temporibus. Sed, harum sint vel expedita sunt ex ducimus
+            omnis, ipsam incidunt tenetur necessitatibus itaque provident alias
+            magni voluptatibus quae in fugiat quisquam aliquam placeat
+            voluptates, ad excepturi. Dolorum, dolore ut.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            perspiciatis voluptatem animi maxime enim! Assumenda quam nisi sunt,
+            iusto itaque, iure alias dolor a debitis commodi dolore cum deleniti
+            id, eius reprehenderit veritatis ut voluptas exercitationem!
+            Nesciunt rerum aliquid quos assumenda pariatur nobis vitae totam eum
+            vero, harum quia amet obcaecati provident eaque. Deleniti, nulla
+            quidem aliquid inventore debitis facere nam pariatur nihil odio
+            excepturi dolores soluta, optio fugiat temporibus. Sed, harum sint
+            vel expedita sunt ex ducimus omnis, ipsam incidunt tenetur
+            necessitatibus itaque provident alias magni voluptatibus quae in
+            fugiat quisquam aliquam placeat voluptates, ad excepturi. Dolorum,
+            dolore ut.
+          </p>
+
+          <blockquote>
+            <i class="fas fa-quote-left"></i>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero
+            nihil quis, voluptate sint explicabo similique provident maiores
+            facere nostrum?
+          </blockquote>
+        </article>
+      </section>
+    </main>
+    <script src="https://kit.fontawesome.com/211a3e6659.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
