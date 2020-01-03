@@ -46,13 +46,13 @@ button {
 }
 
 .rotate1 {
-  animation: spinWheel1 1s ease-in forwards;
+  animation: spinWheel1 2s ease-out forwards;
 }
 .rotate2 {
-  animation: spinWheel2 1s ease-in forwards;
+  animation: spinWheel2 2s ease-out forwards;
 }
 .rotate3 {
-  animation: spinWheel3 1s ease-in forwards;
+  animation: spinWheel3 2s ease-out forwards;
 }
 
 @keyframes spinWheel1 {
@@ -60,22 +60,22 @@ button {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-107deg);
+    transform: rotate(-467deg);
   }
 }
 @keyframes spinWheel2 {
   from {
-    transform: rotate(-107deg);
+    transform: rotate(-467deg);
   }
   to {
-    transform: rotate(-272.5deg);
+    transform: rotate(-992.5deg);
   }
 }
 @keyframes spinWheel3 {
   from {
-    transform: rotate(-272.5deg);
+    transform: rotate(-992.5deg);
   }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(-1440deg);
   }
 }
