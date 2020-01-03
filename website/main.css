@@ -10,7 +10,7 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,7 +30,7 @@ nav {
 
 .logo img {
   display: block;
-  width: 25%;
+  width: 40%;
   margin: auto;
 }
 
@@ -94,7 +94,7 @@ nav {
   position: absolute;
   background-color: #1f2966;
   padding: 1rem;
-  top: 3rem;
+  top: 4.5rem;
   min-width: 160px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -102,7 +102,6 @@ nav {
 
 .dropdown-content a {
   padding: 1rem;
-  font-size: 1rem;
 }
 
 .dropdown-content a:hover {
@@ -143,7 +142,7 @@ nav {
   display: flex;
   flex-flow: column;
   align-items: flex-end;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 0 2rem;
 }
 
@@ -161,7 +160,7 @@ nav {
   position: absolute;
   color: white;
   top: 50%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 0.8rem;
 }
 
@@ -191,7 +190,7 @@ nav {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 1rem;
+  margin: 0.5rem 1.5rem;
   background-color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -206,7 +205,7 @@ nav {
 
 .blog {
   width: 100%;
-  height: 100vh;
+  height: 10vh;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -220,17 +219,18 @@ aside {
 aside h3 {
   color: #dd1a1a;
   font-weight: normal;
+  font-size: 1.5rem;
 }
 
 aside p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: rgb(102, 100, 100);
 }
 
 aside .ad {
   display: flex;
   align-items: center;
-  height: 15vh;
+  height: 12vh;
   cursor: pointer;
 }
 
@@ -246,6 +246,8 @@ h3 {
 
 aside h2 {
   text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 3rem;
 }
 
 /* End of aside section */
@@ -265,6 +267,10 @@ article h1 {
   margin: 0;
   font-size: 2.5rem;
   border-bottom: 2px solid #bebebe;
+}
+
+article p {
+  font-size: 1.5rem;
 }
 
 article span {
@@ -289,6 +295,10 @@ article i {
 /* End of blog article */
 
 @media screen and (max-width: 768px) {
+  a {
+    font-size: 1rem;
+  }
+
   nav {
     position: fixed;
     height: 10vh;
